@@ -2,8 +2,7 @@
   "name": "@clxrity/next-kit",
   "version": "0.0.1",
   "description": "Tools and utilities for Next.js projects",
-  "main": "index.js",
-  "scripts": {
+    "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
     "lint": "eslint . --ext .ts,.tsx"
@@ -17,6 +16,21 @@
       "require": "./dist/index.js",
       "import": "./dist/index.mjs",
       "types": "./dist/index.d.ts"
+    },
+    "./utils": {
+      "require": "./dist/utils/index.js",
+      "import": "./dist/utils/index.mjs",
+      "types": "./dist/utils/index.d.ts"
+    },
+    "./hooks": {
+      "require": "./dist/hooks/index.js",
+      "import": "./dist/hooks/index.mjs",
+      "types": "./dist/hooks/index.d.ts"
+    },
+    "./components": {
+      "require": "./dist/components/index.js",
+      "import": "./dist/components/index.mjs",
+      "types": "./dist/components/index.d.ts"
     }
   },
   "files": [
