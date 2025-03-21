@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { contextFactory } from "../package/utils"
+import { contextFactory } from "../../package/utils"
 import { useState } from "react";
 import React from "react";
 
