@@ -21,7 +21,7 @@ A collection of utility functions for working with Next.js and React.
 ### contextFactory
 
 ```ts
-import { contextFactory } from '@clxrity/next-kit/utils';
+import { contextFactory } from '@clxrity/next-kit';
 ```
 
 Creates a context with a default value and a provider component.
@@ -56,7 +56,7 @@ const { Provider, useContext } = contextFactory<TestContextState>(initialState, 
 A function to join class names conditionally (supports [tailwindcss](https://tailwindcss.com/) classes).
 
 ```ts
-import { cn } from '@clxrity/next-kit/utils';
+import { cn } from '@clxrity/next-kit';
 ```
 
 ```ts
@@ -84,7 +84,7 @@ A skeleton loader component for displaying loading states.
 
 ```ts
 "use client";
-import { Skeleton } from '@clxrity/next-kit/components';
+import { Skeleton } from '@clxrity/next-kit';
 import { useState } from 'react';
 
 export default function Page() {
@@ -121,7 +121,7 @@ A wrapper around the Next.js `Image` component to handle loading states and lazy
 - Also disables user-select by default.
 
 ```ts
-import { Image, type ImageProps } from '@clxrity/next-kit/components';
+import { Image, type ImageProps } from '@clxrity/next-kit';
 
 export default function Page() {
 
