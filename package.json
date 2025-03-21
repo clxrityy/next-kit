@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Tools and utilities for Next.js projects",
   "type": "module",
+  "private": false,
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
